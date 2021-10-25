@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
   font-family: "Roboto";
   font-size: 16 px;
@@ -6,6 +8,7 @@ body {
 
 .container {
   width: 1024px;
+  margin: 0 auto;
 }
 
 section {
@@ -14,16 +17,15 @@ section {
   border-radius: 20px;
 }
 
-p {
-  line-height: 22px;
-  margin-bottom: 20px;
-}
+/* BODY */
 
+/* titres */
 h1 {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   color: #393c6c;
+  margin-top: 50px;
 }
 
 h2 {
@@ -39,9 +41,69 @@ h3 {
   font-weight: bold;
   line-height: 22px;
   color: #393c6c;
+  margin-top: 15px;
 }
+
+/* header */
 header {
   background-color: white;
-  border-bottom: 1px;
-  color: #f3735f;
+  border-bottom: 1px #f3735f solid;
+  line-height: 60px;
 }
+
+header img {
+  width: 160px;
+}
+
+/* main */
+.baseline {
+  text-align: center;
+  background-color: white;
+  color: #6c6c6c;
+  font-size: 12px;
+}
+.fill {
+  width: 1024px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: efefef;
+}
+
+.test {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #8a98b1;
+  width: 380px;
+  line-height: 24px;
+  margin-left: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+main img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin-right: 15px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.try {
+  color: #6c6c6c;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* footer */
+
+/* non rangé (pour le moment) */
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/* repository : git remote add origin https://github.com/PaulLetreguilly/marmiton.git */
